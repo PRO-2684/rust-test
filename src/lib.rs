@@ -1,15 +1,7 @@
-/// Sample doc comment
-///
-/// # Examples
-///
-/// This should not compile:
-///
 /// ```rust compile_fail
 /// let x = 5;
 /// x += 1;
 /// ```
-///
-/// This should compile:
 ///
 /// ```rust
 /// let x = 5;
