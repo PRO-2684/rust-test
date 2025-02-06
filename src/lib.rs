@@ -8,6 +8,13 @@
 /// let x = 5;
 /// x += 1;
 /// ```
+///
+/// This should compile:
+///
+/// ```rust
+/// let x = 5;
+/// x + 1;
+/// ```
 pub fn add(left: u64, right: u64) -> u64 {
     left + right
 }
